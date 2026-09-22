@@ -1,0 +1,19 @@
+{
+  "name": "codealpha-social-media-platform",
+  "version": "1.0.0",
+  "description": "NovaSocial - Instagram-inspired full-stack social media platform for CodeAlpha Full Stack Development Internship Task 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
